@@ -1,0 +1,52 @@
+.src img{
+    width: 300px;
+    height: 150px;
+}
+p{
+  color: rgb(238, 67, 238);
+}
+
+.src{
+    display: flex;
+}
+.sbc img{
+    width: 200px;
+    height: 200px;
+}
+.sbc{
+    display:flex ;
+}
+nav a{
+    position: absolute;
+    right:-110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(178, 32, 214);
+    border-radius: 0 5px 5px 0;
+
+}
+nav a:hover{
+   right:0;
+       position: absolute;
+
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(178, 32, 214);
+    border-radius: 0 5px 5px 0;
+
+}
+.about{
+    top: 20px;
+    background-color:pink ;
+
+}
+.blog{
+    top: 80px;
+    background-color:rebeccapurple ;
+}
